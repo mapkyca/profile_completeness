@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin_manifest xmlns="http://www.elgg.org/plugin_manifest/1.8">
+    <name>Profile completeness</name>
+    <author>Marcus Povey</author>
+    <version>1.0</version>
+    <category>enhancements</category>
+    <blurb>Provides a profile completeness view.</blurb>
+    <description>A basic and generic tool for displaying the completeness of various profiles. It triggers a hook 'profilecomplete', 'defaultfields' 
+    (return value populated with the profile default) which lets other profiles provide required fields. See README for more.</description>
+    <website>http://www.marcus-povey.co.uk</website>
+    <copyright></copyright>
+    <license>GNU Public License version 2</license>
+    <requires>
+        <type>elgg_release</type>
+		<version>1.8</version>
+    </requires>
+</plugin_manifest>
