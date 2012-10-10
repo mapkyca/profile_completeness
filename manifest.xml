@@ -8,7 +8,7 @@
     <description>A basic and generic tool for displaying the completeness of various profiles. It triggers a hook 'profilecomplete', 'defaultfields' 
     (return value populated with the profile default) which lets other profiles provide required fields. See README for more.</description>
     <website>http://www.marcus-povey.co.uk</website>
-    <copyright></copyright>
+    <copyright>(C) Marcus Povey 2012</copyright>
     <license>GNU Public License version 2</license>
     <requires>
         <type>elgg_release</type>
