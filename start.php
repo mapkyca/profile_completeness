@@ -9,6 +9,8 @@
 
     function profilecomplete_init()
     {
+		// add a blog widget
+		elgg_register_widget_type('profilecomplete', elgg_echo('profilecomplete:title'), elgg_echo('profilecomplete:widget:description'));
     }
     
     function profilecomplete_calculate(ElggUser $user)
