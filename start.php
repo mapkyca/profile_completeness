@@ -25,7 +25,7 @@
 
         foreach ($fields as $field => $type)
         {
-            if (isset($user->$field))
+			if ((isset($user->$field) && ($user->$field!=='')))
                 $populated++;
         }
 
