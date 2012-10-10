@@ -6,5 +6,5 @@
     $complete = profilecomplete_calculate($user);
 ?>
 <div class="profilecomplete">
-    <p><a href="<?php echo $user->getUrl();?>"<?php echo elgg_echo('profilecomplete', array($complete)); ?></a></p>
+    <p><a href="<?php echo $user->getUrl();?>"><?php echo elgg_echo('profilecomplete', array($complete)); ?></a></p>
 </div>
